@@ -7,10 +7,21 @@ Applying CSS elements to make a unique responsive portfolio layout.
 
 Page Layout - 
 
+![Page Layout](images/PageLayout.png)
+
+About Me Page - 
+![About Me](images/AboutMe.PNG)
+
+Portfolio Page -
+![Portfolio](images/PortfolioPage.PNG)
+
+Contact Page -
+![Contact](images/ContactPage.PNG)
+
 
 
 Notes
-    - having issues setting background image 
+    - had issues setting background image 
         -  corrected issues with bg img noted in style.css
     - renamed "< container >" div to a standard "< div >" was causing issues with css
     - styling elements with css 
