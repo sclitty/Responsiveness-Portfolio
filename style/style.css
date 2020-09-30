@@ -6,12 +6,13 @@
     position: fixed;
     width: 150%;
     height: 150%;
-    opacity: .5;
+    opacity: .4;
 }
 
 .navbar-brand {
-    font-weight: 700;
-    margin: 8px;
+    font-weight: 500;
+    font-size: 35px;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .container {
@@ -31,12 +32,14 @@
 }
 
 .portfolioTitle {
+    font-family: 'Permanent Marker', cursive;
     color: white;
     margin: 10px;
+    font-size: 25px;
 }
 
 .portfolio-img {
-    opacity: .6;
+    opacity: .8;
     filter: alpha(opacity=40);
     margin: 5px;
     max-width: 350px;
@@ -54,14 +57,13 @@
 }
 
 h1 {
-    /* font-family: 'Walter Turncoat', cursive; */
+    font-family: 'Permanent Marker', cursive;
     color: white;
     font-size: 50px;
 }
 
 p {
-    /* font-family: 'Walter Turncoat', cursive; */
-    font-size: 16px;
+    font-size: 17px;
     padding-left: 20px;
     padding-right: 20px;
     color: white;
@@ -88,6 +90,7 @@ p {
     font-weight: bold;
     font-size: 20px;
     color: rgba(238, 70, 52, 0.918);
+    font-family: 'Permanent Marker', cursive;
 }
 
 @media only screen and (max-width: 1200px) {
