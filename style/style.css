@@ -48,7 +48,7 @@
 }
 
 #freshair {
-    background-color: rgb(224, 196, 37);
+    background-color: rgba(231, 214, 60, 0.829);
 }
 
 .portfolio-img:hover {
@@ -95,7 +95,7 @@ p {
 
 @media only screen and (max-width: 1200px) {
     .portfolio-img {
-        max-width: 250px;
-        max-height: 250px;    
+        max-width: 215px;
+        max-height: 215px;    
     }
 }
