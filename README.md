@@ -7,9 +7,10 @@ Working on this to become my professional portfolio.
 
 Page Link
     https://sclitty.github.io/Responsiveness-Portfolio/index.html
+ 
 
-Page Demo - 
-    ![Demo](images/Demo.gif)
+### Page Demo - 
+![Demo](images/Demo.gif)
 
 
 
