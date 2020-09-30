@@ -1,20 +1,21 @@
 /* Custom CSS */
 
 
-/* TRYING TO GET A BACKGROUND IMAGE TO WORK! */
-/* ----------------------------------------- */
-/* IT FINALLY WORKED! */
 .background-img { 
     z-index: -1;
     position: fixed;
     width: 150%;
     height: 150%;
-    opacity: .2;
+    opacity: .5;
 }
-/* IT FINALLY WORKED! */
+
+.navbar-brand {
+    font-weight: 700;
+    margin: 8px;
+}
 
 .container {
-    background-color: rgba(130, 200, 228, 0.945);
+    background-color: rgba(0, 0, 0, 0.548);
     min-width: 300px;
     max-width: 68%;
     margin: 100px;
@@ -29,12 +30,22 @@
     margin: 15px;
 }
 
+.portfolioTitle {
+    color: white;
+    margin: 10px;
+}
+
 .portfolio-img {
     opacity: .6;
     filter: alpha(opacity=40);
     margin: 5px;
     max-width: 350px;
     max-height: 350px;
+    border-radius: 15px;
+}
+
+#freshair {
+    background-color: rgb(224, 196, 37);
 }
 
 .portfolio-img:hover {
@@ -60,18 +71,25 @@ p {
 .btn {
     background-color: white; /* Green */
     border: none;
-    color: rgb(130, 200, 228);
+    color: rgba(25, 28, 29, 0.815);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
-  }
+}
 
 .form-group {
     color: white;
 }
+
+.reDirect { 
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(238, 70, 52, 0.918);
+}
+
 @media only screen and (max-width: 1200px) {
     .portfolio-img {
         max-width: 250px;

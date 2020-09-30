@@ -1,4 +1,4 @@
-# Responsiveness-Portfolio
+# Portfolio
 
 Building an Online Portfolio using Bootstrap.
 
@@ -21,12 +21,5 @@ Portfolio Page -
 Contact Page -
     ![Contact](images/ContactPage.PNG)
 
-    Building Notes
-        - used page layout as background-img since it looked fitting as a learning web developer
-        - renamed "< container >" div to a standard "< div >" was causing issues with css
-        probably a better semantic tag but div works well. 
-   
-        Portfolio Page 
-            -added media query to prevent img overlap on smaller screens 
 
 

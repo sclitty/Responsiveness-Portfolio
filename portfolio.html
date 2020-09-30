@@ -5,22 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style/style.css">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet"> -->
     <title>Sam's Portfolio</title>
 </head>
 
 <body>  
     
     <!-- BACKGROUND IMG -->
-    <div class="background-img" id="portfolio-bg">
-        <img src="images\PageLayout.png" alt="how to build a portfolio using bootstrap">
+    <div class="background-img" id="About-bg">
+        <img src="images\airport.png" alt="airplane window">
     </div>
     <!-- BACKGROUND IMG -->
     
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <a class="navbar-brand" href="#">
-            <img src="images/LogoTransparent.png" width="135" height="35" alt="" loading="lazy">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+        <a class="navbar-brand">
+            Samuel Clitty
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +54,7 @@
     <br>
 
     <!-- CONTAINER  -->
-    <div class="container portfolio">
+    <div class="container portfolio shadow-sm">
         <br>
         <row class="row">
             <column class="col-md-12">
@@ -66,25 +65,29 @@
         <hr>
         <row class="row">
             <column class="col-xs-6 col-sm-6 col-md-6">
-                <img src="images\pexels-curioso-photography-288100.jpg" alt="water" class="img-fluid portfolio-img img-thumbnail">
+                <h5><a class="portfolioTitle" href="https://clubkemp.github.io/freshair/" target="_blank">Fresh Air Project</a></h5>
+                <img src="images\FreshAirLogo.png"  alt="Fresh Air" id="freshair" class="img-fluid portfolio-img shadow-sm">
             </column>
             <column class="col-xs-6 col-sm-6 col-md-6">
-                <img src="images\pexels-curioso-photography-288101.jpg" alt="frozen river" class="img-fluid portfolio-img img-thumbnail">        
-            </column>
-        </row>
-
-        <row class="row">
-            <column class="col-xs-6 col-sm-6 col-md-6">
-                <img src="images\pexels-curioso-photography-288102.jpg" alt="frozen trees" class="img-fluid portfolio-img img-thumbnail">
-            </column>
-            <column class="col-xs-6 col-sm-6 col-md-6">
-                <img src="images\pexels-gagaz-adam-2894944.jpg" alt="smokey hike" class="img-fluid portfolio-img img-thumbnail">
+                <h5><a class="portfolioTitle" href="https://sclitty.github.io/Quiz-Me/index.html" target="_blank">Quiz Application</a></h5>
+                <img src="images\PageSnip.PNG" alt="Quiz-Me" class="img-fluid portfolio-img shadow-sm">        
             </column>
         </row>
 
         <row class="row">
             <column class="col-xs-6 col-sm-6 col-md-6">
-                <img src="images\pexels-brett-sayles-4439303.jpg" alt="oink oink" class="img-fluid portfolio-img img-thumbnail">
+                <h5><a class="portfolioTitle" href="https://sclitty.github.io/Plan-The-Day-/index.html" target="_blank">Daily Planner</a></h5>
+                <img src="images\DailyPlanner.PNG" alt="daily planner" class="img-fluid portfolio-img shadow-sm">
+            </column>
+            <column class="col-xs-6 col-sm-6 col-md-6">
+                <h5><a class="portfolioTitle" href="https://sclitty.github.io/Password-o-Matic/" target="_blank">Password Generator</a></h5>
+                <img src="images\Password Generator.PNG" alt="password generator" class="img-fluid portfolio-img shadow-sm">
+            </column>
+        </row>
+
+        <row class="row">
+            <column class="col-xs-6 col-sm-6 col-md-6">
+                <!-- EMPTY -->
             </column>
             <column class="col-xs-6 col-sm-6 col-md-6">
                 <!-- EMPTY -->
@@ -96,10 +99,12 @@
     <!-- CONTAINER  -->
     <br>
     <!-- FOOTER -->
-    <footer class="page-footer font-small bg-light fixed-bottom">
+    <footer class="page-footer font-small navbar-light bg-light fixed-bottom shadow-sm">
 
         <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© Willow Pup 2020
+        <div class="footer-copyright text-center py-3">
+            <a href="https://www.linkedin.com/in/samuel-clitty-341082197/" target="_blank" class="reDirect">LinkedIn |</a>
+            <a href="https://github.com/sclitty" target="_blank" class="reDirect">| GitHub</a>
         </div>
         <!-- Copyright -->
       
